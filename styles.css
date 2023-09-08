@@ -87,6 +87,15 @@ h1 {
   background-color: #c82333;
 }
 
+/* Copyright */
+.copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 100vh;
+}
+
 /* Responsvie Styles */
 @media (max-width: 768px) {
   .container {
